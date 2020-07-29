@@ -10,8 +10,8 @@ function Menu() {
                 <img className="Logo" src={Logo} alt="Souzaflix logo" />
             </a>
 
-            <ButtonLink className="ButtonLink" href="/">
-                Novo Video
+            <ButtonLink className="ButtonLink" to="/cadastro/video">
+               Novo Video
             </ButtonLink>
         </nav>
     );
